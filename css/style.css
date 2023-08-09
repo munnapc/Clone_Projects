@@ -226,9 +226,7 @@ nav ul li a{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 5rem;
-    padding: 5rem  0;
-    /* background-color: red; */
+    margin: 0 5rem;
 }
 
 .tokenomicsContent p {
@@ -246,8 +244,144 @@ nav ul li a{
 
 /* Roadmap Section Design  */
 
+.roadmap {
+    margin-top: 5rem;
+}
+
 .roadmapImg img {
     width: 100%;
 }
 
 
+/* Product Section Design start  */
+
+.topsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topsection p {
+    font-size: 1.8rem;
+    margin-right: 7rem;
+}
+
+.middleSection {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 4rem;
+}
+
+.middeBox {
+    padding: 4rem;
+    background: #102a33;
+    border-radius: 2rem;
+}
+
+.middeBox:hover {
+    background: var(--black-gradient);
+}
+
+.box1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.box2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.box3 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.box4 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.box5 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+
+.box6 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+
+.middeBox h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 2rem 0 ;
+}
+
+.middeBox p {
+    font-size: 1.7rem;
+    padding: 2rem 0;
+    line-height: 2;
+}
+
+
+/* Bottom Layer Design  */
+
+.bottomContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    background: var(--black-gradient);
+    border-radius: 2rem;
+    margin: 10rem 0;
+}
+
+.bottomContainer p {
+    font-size: 1.8rem;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: repeat( 5 , 1fr);
+    font-size: 1.8rem;
+    padding: 1rem 5%;
+    margin-bottom: 2rem;
+}
+
+.logoContainer {
+    grid-column: 1 / 3;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column span {
+    color: #fff;
+    font-weight: 550;
+}
+
+.column a {
+    margin-top: 1.5rem;
+}
+
+.column a:hover {
+    color: #00ffff;
+}
+
+
+.footerLinks {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 5% 5rem;
+}
+
+.socialLinks a i{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
