@@ -31,7 +31,7 @@ body {
 section{
     min-height: 100vh;
     width: 100%;
-    padding: 3%;
+    padding: 4%;
 }
 
 /* Navbar Design  */
@@ -168,7 +168,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #00eeff1a;
+    background-color: #00eeff21;
     color: #0ef;
 }
 
@@ -190,17 +190,18 @@ nav ul li a{
 
 /* About Section Design  */
 
-#about {
+.chainSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 3%;
 }
 
-.aboutContent {
-margin: 0 3rem;}
+.chainSectionContent {
+    margin: 0 3rem;
+}
 
-.aboutImage img {
+.chainSectionImage img {
     width: 40vw;
 }
 
@@ -211,6 +212,42 @@ margin: 0 3rem;}
     margin-bottom: 2rem;
 }
 
-.aboutContent p {
+.chainSectionContent p {
     font-size: 1.8rem;
 }
+
+
+/* Tokenomics Content Section Design  */
+
+
+
+.tokenomicsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5rem;
+    padding: 5rem  0;
+    /* background-color: red; */
+}
+
+.tokenomicsContent p {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.tokenomicsImage {
+    margin-top: 4rem;
+}
+
+.tokenomicsImage img {
+    width: 45vw;
+}
+
+/* Roadmap Section Design  */
+
+.roadmapImg img {
+    width: 100%;
+}
+
+
