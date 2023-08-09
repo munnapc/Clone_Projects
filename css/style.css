@@ -74,7 +74,7 @@ nav ul li a{
 }
 
 .homeContent h1 {
-    font-size: 8rem;
+    font-size: 7.5rem;
     font-weight: 550;
     color: #33bbcf;
 }
@@ -176,7 +176,7 @@ nav ul li a{
     margin-left: 1rem;
 }
 
-.featureContent .heading {
+.featureContent > h2 {
     font-size: 2rem;
     color: #fff;
 }
@@ -184,4 +184,33 @@ nav ul li a{
 .featureContent p {
     font-size: 1.5rem;
     /* text-align: justify; */
+}
+
+
+
+/* About Section Design  */
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.aboutContent {
+margin: 0 3rem;}
+
+.aboutImage img {
+    width: 40vw;
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 550;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.aboutContent p {
+    font-size: 1.8rem;
 }
