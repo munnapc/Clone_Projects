@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+:root{
+    --bg-color:#00040f;
+    --text-color:#ffffffb3;
+    --main-color:#33bbcf;
+    --black-gradient: linear-gradient( 144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61% );
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--bg-color);
+    position: relative;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 3%;
+}
+
+/* Navbar Design  */
+
+nav {
+    width: 100%;
+    /* height: 8rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3%;
+    background:var(--bg-color);
+}
+
+.logo img {
+    width: 9.7vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+
+
+/* Home Section Design  */
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeContent h1 {
+    font-size: 8rem;
+    font-weight: 550;
+    color: #33bbcf;
+}
+
+.secondBtn {
+    display: inline-block;
+    padding: .7rem 1.5rem ;
+    border-radius: 1rem;
+    align-items: center;
+    background-image: linear-gradient(125.17deg, rgb(39, 39, 39) 0%, rgb(17, 16, 29) 100%);
+    margin-bottom: 3rem;
+    
+}
+
+.secondBtn span {
+    font-size: 1.7rem;
+    margin-left: .7rem;
+    color: #fff;
+}
+
+.homeContent i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--main-color);
+    width: 3rem;
+    height: 3rem;
+    background: var(--black-gradient);
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.homeContent p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1.6rem 2.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    color: var(--bg-color);
+    background-image: linear-gradient(
+                     157.81deg, 
+                    rgb(222, 249, 250) -43.27%, 
+                    rgb(190, 243, 245) -21.24%, 
+                    rgb(157, 237, 240) 12.19%, 
+                    rgb(125, 231, 235) 29.82%, 
+                    rgb(92, 225, 230) 51.94%, 
+                    rgb(51, 187, 207) 90.29%);
+}
+
+.homeImage img {
+    width: 45vw;
+}
+
+
+
+/* Feature Section Design  */
+
+
+
+.featureContainer {
+    width: 100%;
+    padding: 2% 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem ;
+}
+
+.featurebox {
+    display: inline-flex;
+    padding: 2rem ;
+    border-radius: 2rem;
+}
+
+.featurebox:hover {
+    background: var(--black-gradient);
+}
+
+.featureIcon i {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #00eeff1a;
+    color: #0ef;
+}
+
+.featureContent {
+    margin-left: 1rem;
+}
+
+.featureContent .heading {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.featureContent p {
+    font-size: 1.5rem;
+    /* text-align: justify; */
+}
